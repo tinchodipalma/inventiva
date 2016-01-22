@@ -1,0 +1,24 @@
+$bg-grey: #EAEAEA;
+
+/// COLORS ///
+$lightblue: #77CAFF;
+$blue: #3D3DAA;
+$green: #3DAA3D;
+$orange: #FF6634;
+$gray: #D4D4D4;
+$darkgray: #444;
+$white: #FAFAFA;
+$black: #2b292a;
+
+$colors: (
+    'lightblue': $lightblue,
+    'blue': $blue,
+    'green': $green,
+    'orange': $orange,
+    'gray': $gray,
+    'white': $white,
+    'black': $black,
+);
+
+$menu-background-color: $white;
+$menu-option-text-color: $orange;

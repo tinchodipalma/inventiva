@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Inventiva Dise&nacute;o Gr&aacute;fico</title>
+        <link type="text/css" rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
+        <link type="text/css" rel="stylesheet" href="/dist/css/inventiva.css">
+    </head>
+    <body>
+        <inventiva-content></inventiva-content>
+
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/bower_components/riot/riot+compiler.min.js"></script>
+        <script src="/app/js/main.js"></script>
+        <script type="riot/tag" src="/app/tags/inventiva-content.tag"></script>
+        <script type="riot/tag" src="/app/tags/inventiva-menu.tag"></script>
+        <script type="riot/tag" src="/app/tags/inventiva-top.tag"></script>
+        <script type="riot/tag" src="/app/tags/inventiva-services.tag"></script>
+        <script>
+            riot.mount('inventiva-content');
+        </script>
+    </body>
+</html>

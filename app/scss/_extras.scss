@@ -1,0 +1,18 @@
+$menu-height: 50px;
+$menu-option-width: 120px;
+
+$content-height: calc(100vh - #{$menu-height});
+
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+            transform: $transforms;
+}
+
+@mixin inventiva-font($size: 20px, $weight: normal, $style: normal) {
+    font-size: $size;
+    font-weight: $weight;
+    font-style: $style;
+}
