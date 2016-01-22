@@ -17,7 +17,7 @@ body {
 
 .section {
     width: 100%;
-    height: calc(100vh - #{$menu-height});
+    min-height: calc(100vh - #{$menu-height});
 
     &.section-full {
         height: 100vh;
@@ -40,5 +40,28 @@ body {
         display: block;
         position: absolute;
         right: 0;
+    }
+}
+
+#sectionServices {
+    .service-block {
+        width: 32.7vw;
+        height: 32.7vw;
+        display: inline-block;
+        margin: 0;
+        position: relative;
+
+        .service-bg,
+        .service-image {
+            width: 100%;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .service-text {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+        }
     }
 }
