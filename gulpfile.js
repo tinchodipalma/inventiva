@@ -20,7 +20,7 @@ gulp.task('lint', function() {
 gulp.task('sass', function() {
     return gulp.src(['app/scss/*.scss', '!app/scss/_*.scss'])
         .pipe(concat('inventiva.scss'))
-        .pipe(sass({outputStyle: 'compressed'}))
+        .pipe(sass({outputStyle: 'expanded'}))
         .pipe(gulp.dest('dist/css'))
         .pipe(connect.reload());
 });

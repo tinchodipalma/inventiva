@@ -23,7 +23,8 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "bootstrap": "~3.3.5",
-    "riot": "~2.2.4"
+    "riot": "~2.2.4",
+    "font-awesome": "fontawesome#~4.5.0"
   },
   "devDependencies": {
     "animate.css": "~3.4.0"

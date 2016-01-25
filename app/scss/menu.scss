@@ -6,7 +6,11 @@
     border: 0;
     margin: 0;
     padding: 0;
-    transition: border-color .8s ease;
+    transition: top .8s ease;
+
+    &:not(.menu-visible) {
+        top: -$menu-height;
+    }
 
     #menuList {
         z-index: 10;
